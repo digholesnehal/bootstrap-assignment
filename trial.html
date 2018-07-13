@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 400 15px/1.8, 'noto serif';
+            color: #777;
+        }
+        .nav-tabs li a {
+            color: #777;
+        } 
+        .button{
+            background-color: black;
+
+        }
+        .navbar {
+            font-family: "noto serif", Times, serif;
+            background-color: #f5f5f5;
+            border: 0;
+            font-size: 15px !important;
+            letter-spacing: 0px;
+            height: 9vw;
+        }
+
+        .navbar li a,
+        .navbar .navbar-brand {
+            color: #999999 !important;
+        }
+        .navbar-nav li a:hover {
+            color: #99ff33 !important;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+        }
+        .container-fluid {
+            position: relative;
+            text-align: center;
+            color: #333333;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 51%;
+            transform: translate(-50%, -50%);
+        }
+        .caption{
+            position: absolute;
+            top: 35%;
+            left: 35%;
+            transform: translate(-50%, -50%); 
+            color: white; 
+        }
+        .captionf{
+            position: absolute;
+            top: 25%;
+            left: 35%;
+            transform: translate(-50%, -50%); 
+            color: white; 
+        }
+        .centered123{
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width:100%; 
+        }
+        .text{
+            color: #333;
+            font-family: 'noto serif';
+            font-size: 1.01vw;
+            letter-spacing: 0.1vw;
+            word-spacing: -0.1vw;
+            font-weight: lighter;
+        }
+        .glyphicon-ring {
+            width: 1.5vw;
+            height: 1.5vw;
+            border-radius: 50%;
+            border: 0vw solid white;
+            color: black;
+            display: inline-table;
+            text-align: center;
+            background-color: #777;
+        }
+    </style>
+</head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid" style="width: 100%;">
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-4 col-md-4" style="margin-left:11vw;">
+                            <img src="images/logo.png" class="img-rounded i" alt="logo" width="300" height="120" >
+                        </div>
+                        <div class="col-lg-3 col-sm-3 col-md-3 mr3" style="margin-left:3vw; margin-top:2vw;">
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <a href="tel:(02) 9017 8413">
+                                    <i style="font-size:1.5vw; color:#797979;"> 
+                                        Call Us Today! (02) 9017 8413 
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg col-sm col-md" style="margin-right:10.6vw; margin-top:2vw">
+                            <form class="navbar-form" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="" name="srch-term" id="srch-term">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit">
+                                                <i class="glyphicon glyphicon-search" style="color:#bbb"></i>
+                                            </button>
+                                        </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                        <div class="collapse navbar-collapse navbar-inverse " id="myNavbar">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>                      
+                                </button>
+                            </div>
+                        </div>
+                        <ul class="nav navbar-nav  navbar-center" style="margin-left:41vw; margin-top: -5vw;">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Dating Blog</a></li>
+                            <li><a href="#">Who We Help</a></li>
+                            <li><a href="#">Why Vital</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                       
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid"  style="width:100%; background:#959995; color:#fff; margin-top: 8vw; height:100px;">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="text-center" style="font-family:'noto serif'; letter-spacing: 0.0001vw; word-spacing: 0.0001vw; font-size:1.5vw; margin-top:20px;">
+                        <img src="images/icon5.png" alt="icon" width="70px" height="70px">
+                        Lorem Ipsum is simply dummy text of the printing ind.       
+                        <button type="button" class="btn btn-lg" style="background-color:#777; border: 1px solid white;  font-size:1.2vw; width:12vw;">
+                             Download Now
+                        </button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="container-fluid" style="width: 100%;">
+            <img src="images/blog_post_iamge_1.jpg" alt="Blog Post Image" width="100%" height="400px">
+            <div class="centered" style="font-size:2.5vw; margin-left:180px; font-family:'noto serif';">
+                Lorem ipsum dolor sit posuer <br> long dolor sit amet.<br> It has survived not on?<br>
+                    <button type="button" class="btn btn-lg" style="background-color:#9be52a; color:white; font-size:1.4vw">Contact Us Now!<img src="images/icon1.png">
+                    </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1 col-lg-1 col-md-1">
+                </div>
+                <div class="col-sm-6 col-lg-6 col-md-6">
+                    <h1 style="color:black; font-family:'noto serif';"> About Us</h1>
+                    <p class="lead" style="font-size:26px; color:#555555; font-family:'noto serif'; letter-spacing:0px; word-spacing:-1px">
+                        It is a long established fact that a reader will be distracted
+                    </p>
+                    <p style="font-color:#555555; font-family:'noto serif';letter-spacing: 1px; font-size:16px;">
+                        <b>The point of using Lorem Ipsum is</b> that it has a more-or-less normal bution of letters, as opposed to using 'Content here, content here', making look like readable English</p>
+                    <p style="font-color:#555555; font-family:'noto serif';letter-spacing: 1px; font-size:16px;">
+                        <b>There are many variations of passages of</b> Lorem Ipsum available, but the majority have suffered alteration in some form 
+                    </p>
+                    <ul class="list-group">
+                        <li class="list-group-item" style="border-color:white">
+                            <i class="fa fa-check" aria-hidden="true" style="color:#9be52a;"></i>
+                            <b  style="font-family:'noto serif'">
+                                2000 years old. Richard McClient
+                            </b>
+                        </li>
+                        <li class="list-group-item" style="border-color:white">
+                             <i class="fa fa-check" aria-hidden="true" style="color:#9be52a;"></i>
+                            <b  style="font-family:'noto serif'">
+                                Discovered the undoubtable source
+                            </b>
+                        </li>
+                        <li class="list-group-item" style="border-color:white">
+                            <i class="fa fa-check" aria-hidden="true" style="color:#9be52a;"></i>
+                            <b  style="font-family:'noto serif'">
+                                Lorem ipsum dolor sit amet.
+                            </b>
+                        </li>
+                    </ul>
+                    <p style="font-color:#555555; font-family:'noto serif';letter-spacing: 1px; font-size:16px;">
+                        remaining essentially unchanged. It was popularised in the 1960s with the release Letraset sheets containing
+                    </p>
+                    <button type="button" class="btn btn-lg" style="background-color:#9be52a; color:white; font-size:17px; font-family:'noto serif'">
+                        Contact Us Now!<img src="images/icon1.png">
+                    </button>
+                </div>
+                <div class="col-sm-3 col-lg-3 col-md-3">
+                    <img src="images/user3.png" width="370px" height="350px" style="margin-top:200px; border:'5'; ">
+                </div>
+                <div class="col-sm-2 col-lg-2 col-md-2"></div>
+            </div>
+        </div>
+        <div  class="container-fluid" style="width: 100%; margin-top:6%;">
+            <img src="images/hbg5.png" alt="Responsive image" width="100%"> 
+            <div class="caption">
+                <p style="font-size:4vw; font-family:'lora'; margin-left:25vw;"> 
+                    How Vital Works
+                <br>
+                <div class="text-capitalize" style="font-size:2vw; font-family:'times New Roman'; margin-left:25vw; letter-spacing: 0.1vw; ">
+                    step, hop or skip your way to happiness
+                </div>
+                </p>
+                <button type="button" class="btn btn-lg" style="background-color:#ffffff; color:#797979; font-size:1.4vw; margin-left:25vw; border-color: #9be52a; border-width: 4px; ">Pop into our office and meet us face to face..
+                </button>
+            </div>
+        </div> 
+        <div class="container-fluid" style="width: 100%; margin-top:4%;"> 
+            <img src="images/hbg2.png" alt="Responsive image" width="100%">
+            <div class="centered123" style="font-size:1.5vw; font-family:'noto serif'; letter-spacing: 0.001vw; word-spacing:-0.01vw; color:'black'; text-align:'center';top:25%;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has<br>been the industry's standard ever since the 1500s, when an unknown printer took a<br>galley of type and scrambled it to make a type specimen book.
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <img src="images/testimonial-bg.jpg" alt="Response" width="100%">
+            <div class="captionf">
+                <p style="font-size: 3.4vw; font-family:'noto serif'; word-spacing:0.001vw; margin-left:15vw; width:100%;"> 
+                What Our Clients Say
+                </p>
+              
+            </div>
+        </div>
+        <div class="container-fluid" style="margin-top:7%">
+            <div class="centered text-capitalize" style="font-size:3.5vw; margin-left:2.5vw; font-family:'noto serif';">
+                our latest blog posts
+            </div>
+        </div>
+        <div class="row"  style="margin-left:10vw;">
+           <div class="col-sm-1 col-md-1 col-lg-1"></div>
+            <div class="col-sm-3 col-md-3 col-lg-3" style="top:5vw; margin-right:0.5vw;">
+                <img src="images/blog_image_3.jpg" class="img-responsive" width="270vw" height="170vw">
+               <p class="text">
+                <br>
+                <b>Duis eget leo sit amet orci suscipit lacinia neque</b><br>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+               </p>
+               <br>
+               <button type="button" class="btn btn-md" style="background-color:#ffffff; color:#9be52a; font-size:1.2vw; margin-left:0vw; font-family: 'noto serif'; border-color: #9be52a; border-width: 2px; width:10vw;"> Read More
+                </button>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3" style="top:5vw;  margin-left:1vw;">
+                <img src="images/blog_image_2.jpg" class="img-responsive" width="270vw" height="170vw">
+                <p class="text">
+                <br>
+                <b>Duis eget leo sit amet orci suscipit lacinia neque</b><br>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+               </p>
+               <br>
+                <button type="button" class="btn btn-md" style="background-color:#ffffff; color:#9be52a; font-size:1.2vw; font-family: 'noto serif'; margin-left:0vw; border-color: #9be52a; border-width: 2px; width:10vw;"> Read More
+                </button>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3" style="top:5vw;  margin-left:1vw;">
+                <img src="images/blog_image_1.jpg" class="img-responsive" width="270vw" height="170vw">
+                <p class="text">
+                <br>
+                <b>Duis eget leo sit amet orci suscipit lacinia neque</b><br>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+               </p>
+               <br>
+                <button type="button" class="btn btn-md" style="width:10vw; background-color:#ffffff; color:#9be52a; font-family: 'noto serif'; font-size:1.2vw; margin-left:0vw; border-color: #9be52a; border-width: 2px; "> Read More
+                </button>
+            </div> 
+           <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        </div>
+        <div class="container-fluid"  style="width: 100%; background:#959995; color:#fff; margin-top: 12vw; height:100px;">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="text-center" style="font-family:'noto serif'; letter-spacing: 0.0001vw; word-spacing: 0.0001vw; font-size:1.5vw; margin-top:1vw;">
+                        <img src="images/icon5.png" alt="icon" width="70px" height="70px">
+                        Simply dummy text of the.       
+                        <button type="button" class="btn btn-secondary btn-lg" style="background-color:#555; border: 1px solid white; font-size:1.2vw; width:12vw;">
+                             Download Now
+                        </button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="container-fluid"  style="width: 100%; background:#444; color:#fff; margin-top: 0vw; height:40vw;">
+            <div class="row" style="margin-top:4vw;">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <img class="img-responsive" src="images/logo.png" alt="logo" width="300" height="120" style="margin-left:16vw" >
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8"> 
+                    <p style="font-family:'Serifa Th Bt'; font-size:1.8vw; color:#bbb; text-align: 'center'; margin-right:5vw; margin-top:2vw"> 
+                        Shortcut your search to happiness right now.<br>
+                        Live a life without regrets and take action today!
+                    </p> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                     <a href="tel:(02) 9017 8413">
+                        <i style="font-size:2vw; color:#fff; font-family:'noto serif'; margin-left:10vw; "> 
+                            Call Us Today! (02) 9017 8413 
+                        </i>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <button type="button" class="btn btn-lg" style="background-color:#9be52a; color:white; font-size:1.2vw; font-family:'noto serif'; margin-left:-6vw;margin-right:1vw; width:17vw; height:4vw;">
+                        Book an Appointment <i class="far fa-file"></i>
+                    </button>
+                    <button type="button" class="btn btn-lg" style="background-color:#9be52a; color:white; font-size:1.2vw; font-family:'noto serif'; margin-right:10vw; width:17vw; height:4vw;">
+                        Contact a Consultant <i class="fas fa-user-tie"></i>
+                    </button>  
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid"  style="width: 100%; background:#111; color:#fff; margin-top: 0vw; height:4.2vw;">
+            <div class="row" style="margin-top:1.5vw;">
+                <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <p style="font-family:'noto serif'; font-size:1vw; color:#bbb;">
+                    &copy;VitalPartners.com.au &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+                    Contact | Terms of Use | Privacy Policy | Disclaimer
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    FOLLOW US:<i class="fab fa-facebook-f glyphicon-ring"></i>
+                    <i class="fab fa-twitter glyphicon-ring"></i>
+                    <i class="fab fa-linkedin-in glyphicon-ring"></i>
+                    <i class="fab fa-youtube glyphicon-ring"></i>
+                    <i class="fab fa-google-plus-g glyphicon-ring"></i>
+                    </p>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2"></div>
+            </div>
+        </div>
+        <div class="container-fluid"  style="width: 100%; background:#fff; color:#bbb; margin-top: 0vw;">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">   
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">  
+                <p style="font-family:'noto serif'; font-size:1vw; color:#bbb;"> 
+                    Who Designed This Site? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Who Built This Site?
+                </p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">   
+                </div>
+            </div>
+        </div>
+    </body>         
+</html>

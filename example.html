@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 400 15px/1.8 Lato, sans-serif;
+            color: #777;
+        }
+        .nav-tabs li a {
+            color: #777;
+        } 
+        .navbar {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f5f5f5;
+            border: 0;
+            font-size: 15px !important;
+            letter-spacing: 0px;
+            height: 100px;
+        }
+        .navbar li a,
+        .navbar .navbar-brand {
+            color: #999999 !important;
+        }
+        .navbar-nav li a:hover {
+            color: #99ff33 !important;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+        }
+        .container-fluid {
+        position: relative;
+        text-align: center;
+        color: #333333;
+        }
+        .centered {
+        position: absolute;
+        top: 50%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        }
+        .topnav .icon {
+         display: none;
+        }
+        @media screen and (max-width: 600px) {
+            .navbar a:not(:first-child), .dropdown .dropbtn {
+                display: none;
+            }
+            .navbar a.icon {
+                float: right;
+                display: block;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .navbar.responsive {position: relative;}
+            .navbar.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .navbar.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-4 col-md-4">
+                            <img src="images/logo.png" class="img-rounded" alt="Cinque Terre" width="315" height="120" alt="logo">
+                        </div>
+                        <div class="col-lg-4 col-sm-4 col-md-4 mr3">
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <a href="tel:(02) 9017 8413">
+                                    <i style="font-size: 19px"> Call Us Today! (02) 9017 8413 </i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-4 col-md-4 mr3">
+                            <form class="navbar-form" role="search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="" name="srch-term" id="srch-term">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit">
+                                                <i class="glyphicon glyphicon-search"></i>
+                                            </button>
+                                        </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <ul class="nav navbar-nav  navbar-right" style="margin-top: -70px;">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Dating Blog</a></li>
+                        <li><a href="#">Who We Help</a></li>
+                        <li><a href="#">Why Vital</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+                    </ul>
+                 </div>
+            </div>
+        </nav>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myNavbar");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+        <div class="container-fluid"  style=" background:#a5a5a5; color:#fff; margin-top: 100px; height:100px;">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="text-center" style="font-size:20px; margin-top:20px;">
+                        <img src="images/icon5.png" alt="icon" width="70px" height="70px">
+                        Lorem Ipsum is simply dummy text of the printing ind.       
+                        <button type="button" class="btn btn-secondary btn-lg" style="background-color:grey; border: 2px solid white;">
+                             Download Now
+                        </button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="container-fluid">
+            <img src="images/blog_post_iamge_1.jpg" alt="Blog Post Image" width="100%" height="400px">
+            <div class="centered" style="font-size:35px; margin-left:180px; font-family:lora;">
+                    Lorem ipsum dolor sit posuer <br> long dolor sit amet.<br> It has survived not on?
+                    <br>
+                    <button type="button" class="btn btn-lg" style="background-color:#9be52a; color:white;">Contact Us Now! 
+                        <i class="fa fa-phone"></i>
+                    </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-lg-2 colmd-2">
+                </div>
+                <div class="col-sm-4 col-lg-4 colmd-4">
+                <h1 style="color:black; font-family:times;"> About Us</h1>
+                </div>
+                <div class="col-sm-6 col-lg-6 colmd-6">
+                </div>
+            </div>
+
+    </body>
+</html>
